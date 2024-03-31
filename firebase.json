@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "explore-next-level-food",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
